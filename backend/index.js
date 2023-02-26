@@ -33,7 +33,12 @@ Delete 	DELETE 	/todos/:id 	Löschen des ToDos mit ID id.*/
 
 //Description of the API 
 app.get('/', (req, res) => {
-    res.send('Todo App API\n' + 'reate Todo: POST /todos\n' + 'Read Todo: GET /todos/:id\n' + 'Read all Todos: GET /todos\n' + 'Update Todo: PUT /todos/:id\n' + 'Delete Todo: DELETE /todos/:id\n');
+    res.send('Todo App API\n' 
+    + 'Create Todo: POST /todos\n' 
+    + 'Read Todo: GET /todos/:id\n' 
+    + 'Read all Todos: GET /todos\n' 
+    + 'Update Todo: PUT /todos/:id\n' 
+    + 'Delete Todo: DELETE /todos/:id\n');
 })
 
 //Get all todos
